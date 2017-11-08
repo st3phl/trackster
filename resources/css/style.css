@@ -39,3 +39,8 @@ header .fa-search {
   background-color: rgb(255, 0, 171);
   color: rgb(35, 2, 63);
 }
+
+header .fa-search:hover {
+  background-color: rgb(255, 102, 204);
+  cursor: pointer;
+}
