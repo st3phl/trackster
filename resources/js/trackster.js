@@ -12,7 +12,20 @@ $(document).ready(function() {
   Append each "row" to the container in the body to display all tracks.
 */
 Trackster.renderTracks = function(tracks) {
-
+  for (var trackIndex = 0; trackIndex < tracks.length; trackIndex++) {
+    var htmlTrack =
+      '<div class="row track">' +
+      '  <div class="col-xs-1 col-xs-offset-1 btn-play">' +
+      '    <a href="https://www.youtube.com/watch?v=eI_O5_tJ1hA&feature=youtu.be">' +
+      '      <i class="fa fa-play-circle-o fa-2x"></i>' +
+      '    </a>' +
+      '  </div>' +
+      '  <div class="col-xs-4">Fairytale in the Supermarket</div>' +
+      '  <div class="col-xs-2">The Raincoats</div>' +
+      '  <div class="col-xs-2">The Raincoats</div>' +
+      '  <div class="col-xs-2">101,839</div>' +
+      '</div>';
+  }
 };
 
 /*
