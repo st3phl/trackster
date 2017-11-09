@@ -50,3 +50,14 @@ header .fa-search:hover {
   color: rgb(255, 255, 255);
   padding: 0.5rem 0;
 }
+
+/* Track List */
+
+.track {
+  color: rgb(74, 74, 74);
+  padding: 2rem 0;
+}
+
+.btn-play .fa-play-circle-o {
+  color: rgb(255, 0, 171);
+}
