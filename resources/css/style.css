@@ -55,7 +55,10 @@ header .fa-search:hover {
 
 .track {
   color: rgb(74, 74, 74);
-  padding: 2rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  display: flex;
+  align-items: center;
 }
 
 .btn-play .fa-play-circle-o {
